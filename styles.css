@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rufina');
+
+/* font styling start */
+h1 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 50pt;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 40pt;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 30pt;
+    font-weight: 500;
+}
+h4, a {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 15pt;
+}
+body, p {
+    font-family: 'Rufina', sans-serif!;;
+    font-size: 14pt;
+}
+/* font styling end */
+
+/* nav bar styling start */
+.navright {
+    text-align: right;
+    list-style-position: inside;
+}
+#logo {
+    height: 15vh;
+}
+#heathergrey-bg {
+    padding: 20px;
+    background-color: #b0abb0;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* nav bar styling end */
+
+/* footer styling start */
+.fa {
+    color: #ffffff;
+}
+.fa:hover {
+    color: #ff2400;
+}
+#footer-text {
+    color: #ffffff;
+}
+#footer-align {
+    text-align: center;
+    display: inline-block;
+}
+/* footer styling end */
+
+/* mobile styles start */
+@media (max-width: 768px) { 
+    .navbar-nav {
+       margin-top: 10px;
+       text-align: center; 
+       /* Center-align text in the navigation bar */
+    }
+ 
+    .navbar-toggler {
+       margin: 10px; 
+       /* Adjust spacing for the mobile toggle button */
+    }
+ 
+    #footer-text {
+       font-size: 16px;
+    }
+ 
+    h1 {
+       font-size: 30px;
+    }
+}
+/* mobile styles end */
+
+/* home styling start */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+
+}
+.rounded {
+    border-radius: 25px !important;
+}
+.center-image {
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+/* home styling end */
+
