@@ -61,10 +61,6 @@ a:hover {
 
 /* mobile styles start */
 @media (max-width: 768px) {
-    body {
-       padding-top: 56px;
-    }
- 
     .navbar-nav {
        margin-top: 10px;
        text-align: center; 
