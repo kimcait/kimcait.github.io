@@ -90,8 +90,8 @@ a:hover {
     background-color: #ff2400;
     margin-bottom: 30px;
 }
-button:hover,
-button:focus {
+#form-button:hover,
+#form-button:focus {
   background-color: #FDB0C0;
   color: black;
 }
