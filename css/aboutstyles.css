@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rufina');
+
+/* font styling start */
+
+h1 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 40pt;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid red;
+}
+h2 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 40pt;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    border-bottom: 10px solid red;
+}
+
+p {
+    font-family: 'Playfair Display', serif!important ;
+    font-size: 15pt;
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.6;
+    padding: 0 25%;
+
+}
+/* font styling end */
+
+/*Rush Schedule styling start */
+#top-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+#kplcrest {
+  width: 250px;
+  height: auto;
+  margin: 0 15px;
+}
+
+
+/* nav bar styling start */
+.navright {
+    text-align: right;
+    list-style-position: inside;
+}
+#logo {
+    height: 15vh;
+}
+#heathergrey-bg {
+    padding: 20px;
+    background-color: #b0abb0;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* nav bar styling end */
+
+
+
+/* footer styling start */
+.fa {
+    color: #ffffff;
+}
+.fa:hover {
+    color: #ff2400;
+}
+#footer-text {
+    color: #ffffff;
+    text-align: center;
+}
+#footer-align {
+    text-align: center;
+    display: inline-block;
+}
+/* footer styling end */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+ 
+    .navbar-nav {
+       margin-top: 10px;
+       text-align: center; 
+    }
+ 
+    .navbar-toggler {
+       margin: 10px; 
+    }
+ 
+    #footer-text {
+       font-size: 16px;
+    }
+ 
+    h1 {
+       font-size: 30px;
+    }
+  }
+ 
+  
