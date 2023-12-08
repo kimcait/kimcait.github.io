@@ -16,9 +16,13 @@ h3 {
     font-size: 30pt;
     font-weight: 500;
 }
-h4, a {
+h4, h5, a {
     font-family: 'Playfair Display', serif!important;
     font-size: 15pt;
+}
+h6 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 10pt;
 }
 body, p {
     font-family: 'Rufina', sans-serif!important;
@@ -78,45 +82,37 @@ a:hover {
 }
 /* mobile styles end */
 
-/* home styling start */
-.photo-container {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-
-}
-.rounded {
-    border-radius: 25px !important;
-}
-.center-image {
-    max-width: 100%;    
-    height: auto;
-    border-radius: 15px;
-    justify-content: center;
-    object-fit: cover;
-}
-.red-bg {
-    background-color: #ff2400;
-    padding: 15px;
-    margin: 15px;
-}
-.center-text {
-    text-align: center;
-}
-#red-line {
-    border: none;
-    height: 3px;
-    color: #ff2400;
-}
-.text-container {
-    width: 80%;
-    margin: 0px auto;
-}
-.pillars {
+/* news start */
+.news {
     margin: 2%;
     padding: 1rem;
     background: aquamarine;
     width: 28%;
     float: left;
 }
-/* home styling end */
+.img-contain {
+    max-width: 100%;    
+    height: auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+.grey-bg {
+    background-color: #e3e3e3;
+}
+.rounded {
+    border-radius: 25px !important;
+}
+.center-update {
+    align-items: center;
+    text-align: center;
+}
+#update {
+    background-color: #ff2400;
+    margin-bottom: 15px;
+}
+#update:hover {
+  background-color: #FDB0C0;
+  color: black;
+  text-decoration: none;
+}
+/* news end */

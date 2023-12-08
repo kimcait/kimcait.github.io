@@ -78,45 +78,21 @@ a:hover {
 }
 /* mobile styles end */
 
-/* home styling start */
-.photo-container {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-
+/* updates styling start */
+.grey-bg {
+    background-color: #e3e3e3;
 }
-.rounded {
-    border-radius: 25px !important;
-}
-.center-image {
-    max-width: 100%;    
-    height: auto;
-    border-radius: 15px;
-    justify-content: center;
-    object-fit: cover;
+.darkgrey-bg {
+    background-color: #b0abb0;
+    margin-bottom: 30px;
 }
 .red-bg {
     background-color: #ff2400;
-    padding: 15px;
-    margin: 15px;
+    margin-bottom: 30px;
 }
-.center-text {
-    text-align: center;
+button:hover,
+button:focus {
+  background-color: #FDB0C0;
+  color: black;
 }
-#red-line {
-    border: none;
-    height: 3px;
-    color: #ff2400;
-}
-.text-container {
-    width: 80%;
-    margin: 0px auto;
-}
-.pillars {
-    margin: 2%;
-    padding: 1rem;
-    background: aquamarine;
-    width: 28%;
-    float: left;
-}
-/* home styling end */
+/* updates styling end */
