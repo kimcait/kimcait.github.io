@@ -38,7 +38,7 @@ body, p {
 #logo {
     max-height: 15vh;
 }
-#heathergrey-bg {
+.heathergrey-bg {
     padding: 20px;
     background-color: #b0abb0;
 }
