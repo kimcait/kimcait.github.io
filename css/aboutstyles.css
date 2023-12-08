@@ -12,13 +12,18 @@ h1 {
     border-bottom: 10px solid red;
 }
 h2 {
-    font-family: 'Playfair Display', serif!important;
-    font-size: 40pt;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    border-bottom: 10px solid red;
+  font-family: 'Playfair Display', serif!important;
+  font-size: 40pt;
+  font-weight: 700;
+}
+h3 {
+  font-family: 'Playfair Display', serif!important;
+  font-size: 30pt;
+  font-weight: 500;
+}
+h4, a {
+  font-family: 'Playfair Display', serif!important;
+  font-size: 15pt;
 }
 
 p {
