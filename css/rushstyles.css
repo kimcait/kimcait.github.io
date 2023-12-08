@@ -115,7 +115,6 @@ select {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
   caret-color: purple;
-  caret-size: 5px;
   transition: all 350ms;
 }
 
@@ -141,7 +140,7 @@ input[type="checkbox"] {
   background: hsla(9, 100%, 64%, 0.6);
 }
 
-button {
+#form-button {
   padding: 19px 39px 18px 39px;
   color: #FFFFFF;
   background-color: #FF2400;
@@ -155,8 +154,8 @@ button {
   transition: all 350ms;
 }
 
-button:hover,
-button:focus {
+#form-button:hover,
+#form-button:focus {
   background-color: #FDB0C0;
   color: black;
 }
