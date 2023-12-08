@@ -140,7 +140,7 @@ input[type="checkbox"] {
   background: hsla(9, 100%, 64%, 0.6);
 }
 
-button {
+#form-button {
   padding: 19px 39px 18px 39px;
   color: #FFFFFF;
   background-color: #FF2400;
@@ -154,9 +154,8 @@ button {
   transition: all 350ms;
 }
 
-
-.submit-button button:hover,
-.submit-button button:focus {
+#form-button:hover,
+#form-button:focus {
   background-color: #FDB0C0;
   color: black;
 }
