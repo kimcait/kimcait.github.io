@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rufina');
+
+/* font styling start */
+h1 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 50pt;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 40pt;
+    font-weight: 700;
+}
+h3 {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 30pt;
+    font-weight: 500;
+}
+h4, a {
+    font-family: 'Playfair Display', serif!important;
+    font-size: 15pt;
+}
+body, p {
+    font-family: 'Rufina', sans-serif;
+    font-size: 14pt;
+}
+/* font styling end */
+
+/*Rush Schedule styling start */
+#top-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Individual image styles */
+#rushweek1, #rushweek2 {
+  width: 500px;
+  height: auto;
+  margin: 0 10px;
+}
+/*Rush schedule styling end */
+/*Header styling start*/
+#above-form-header {
+  background-color: #FF2400;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+}
+/*Header styling end*/
+
+/* nav bar styling start */
+.navright {
+    text-align: right;
+    list-style-position: inside;
+}
+#logo {
+    height: 15vh;
+}
+#heathergrey-bg {
+    padding: 20px;
+    background-color: #b0abb0;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* nav bar styling end */
+
+/*Form styling start*/
+
+form {
+  max-width: 500px;
+  margin: 17px auto;
+  padding: 10px 20px;
+  background: #e3e3e3;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 10;
+  text-align: center;
+  font-size: 35px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif !important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  caret-color: purple;
+  caret-size: 5px;
+  transition: all 350ms;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #FDB0C0;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  border: 2px solid hsla(9, 100%, 64%, 0.6);
+}
+
+label:required {
+  color: yellow;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  background: hsla(9, 100%, 64%, 0.6);
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFFFFF;
+  background-color: #FF2400;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 350ms;
+}
+
+button:hover,
+button:focus {
+  background-color: #FDB0C0;
+  color: black;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1em;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 16px
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+  font-size: 15px
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+/*Form styling end*/
+
+/* footer styling start */
+.fa {
+    color: #ffffff;
+}
+.fa:hover {
+    color: #ff2400;
+}
+#footer-text {
+    color: #ffffff;
+    text-align: center;
+}
+#footer-align {
+    text-align: center;
+    display: inline-block;
+}
+/* footer styling end */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+ 
+    .navbar-nav {
+       margin-top: 10px;
+       text-align: center; 
+    }
+ 
+    .navbar-toggler {
+       margin: 10px; 
+    }
+ 
+    #footer-text {
+       font-size: 16px;
+    }
+ 
+    h1 {
+       font-size: 30px;
+    }
+ 
+    input,
+    textarea,
+    select {
+       font-size: 14px;
+       padding: 10px;
+    }
+ 
+    button {
+       font-size: 16px;
+       padding: 15px 29px 14px 29px;
+    }
+    #top-images {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  #rushweek1,
+  #rushweek2 {
+      max-width: 100%;
+      width: 310px
+  }
