@@ -44,7 +44,7 @@ body, p {
 }
 /*Rush schedule styling end */
 /*Header styling start*/
-#above-form {
+#above-form-header {
   background-color: #FF2400;
   color: #ffffff;
   text-align: center;
@@ -140,7 +140,7 @@ input[type="checkbox"] {
   background: hsla(9, 100%, 64%, 0.6);
 }
 
-.submit-button {
+button {
   padding: 19px 39px 18px 39px;
   color: #FFFFFF;
   background-color: #FF2400;
