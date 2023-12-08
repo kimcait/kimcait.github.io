@@ -140,7 +140,7 @@ input[type="checkbox"] {
   background: hsla(9, 100%, 64%, 0.6);
 }
 
-button {
+.submit-button {
   padding: 19px 39px 18px 39px;
   color: #FFFFFF;
   background-color: #FF2400;
