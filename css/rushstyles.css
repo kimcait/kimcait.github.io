@@ -115,7 +115,6 @@ select {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
   margin-bottom: 30px;
   caret-color: purple;
-  caret-size: 5px;
   transition: all 350ms;
 }
 
