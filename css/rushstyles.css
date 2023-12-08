@@ -61,7 +61,7 @@ body, p {
 #logo {
     height: 15vh;
 }
-#heathergrey-bg {
+.heathergrey-bg {
     padding: 20px;
     background-color: #B0ABB0;
 }
@@ -82,7 +82,7 @@ form {
 }
 
 h1 {
-  margin: 0 0 30px 10;
+  margin: 0px 0px 30px 10px;
   text-align: center;
   font-size: 35px;
   box-sizing: border-box;
